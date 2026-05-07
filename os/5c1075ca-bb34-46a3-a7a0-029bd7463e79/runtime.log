@@ -1,0 +1,21 @@
+Created Coasty session: 4de4b7bc-a1c4-4224-8b27-e6098c19623f
+CoastyAgent reset.
+Step 1: got 1 actions
+Reasoning: (Previous Action Verification)
+No previous action was taken. The screenshot shows a terminal in the ~/test_environment directory.
+
+(Screenshot Analysis)
+The terminal is open and currently in ~/test_en...
+Actions: ['import pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(618, 132); pyautogui.write(\'find . -path ./fails -prune -o -name "*failed.ipynb" -print | while read f; do mkdir -p "./fails/$(dirname "$f")"; cp "$f" "./fails/$f"; done\'); pyautogui.press(\'enter\'); \nimport pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(618, 132); pyautogui.write(\'find . -path ./fails -prune -o -name "*failed.ipynb" -print | while read f; do mkdir -p "./fails/$(dirname "$f")"; cp "$f" "./fails/$f"; done\'); pyautogui.press(\'enter\'); \nimport pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(618, 132); pyautogui.write(\'find . -path ./fails -prune -o -name "*failed.ipynb" -print | while read f; do mkdir -p "./fails/$(dirname "$f")"; cp "$f" "./fails/$f"; done\'); pyautogui.press(\'enter\'); ']
+Step 2: got 1 actions
+Reasoning: (Previous Action Verification)
+The command ran and completed without errors. I can see the command executed and returned to the prompt. However, I notice the command ran multiple times (it appears the...
+Actions: ['import pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(618, 292); pyautogui.write(\'find ./fails -name "*failed.ipynb" 2>/dev/null\'); pyautogui.press(\'enter\'); \nimport pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(618, 292); pyautogui.write(\'find ./fails -name "*failed.ipynb" 2>/dev/null\'); pyautogui.press(\'enter\'); \nimport pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(618, 292); pyautogui.write(\'find ./fails -name "*failed.ipynb" 2>/dev/null\'); pyautogui.press(\'enter\'); ']
+Step 3: got 1 actions
+Reasoning: (Previous Action Verification)
+The verification command ran and I can see files were successfully copied to ./fails. The output shows:
+- ./fails/dir3/e_failed.ipynb
+- ./fails/dir1/a_failed.ipynb
+- ./f...
+Actions: [{'action_type': 'DONE'}]
+Deleted Coasty session: 4de4b7bc-a1c4-4224-8b27-e6098c19623f

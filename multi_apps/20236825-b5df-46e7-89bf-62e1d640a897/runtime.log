@@ -1,0 +1,19 @@
+Reset Coasty session: 8f46a8df-a5de-42b3-b22c-f55303de07f7
+CoastyAgent reset.
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict API error (attempt 1/10): 429 Client Error: Too Many Requests for url: http://localhost:8001/api/osworld/predict
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict API error (attempt 1/10): 429 Client Error: Too Many Requests for url: http://localhost:8001/api/osworld/predict
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict API error (attempt 1/10): 429 Client Error: Too Many Requests for url: http://localhost:8001/api/osworld/predict
+Predict API error (attempt 2/10): 429 Client Error: Too Many Requests for url: http://localhost:8001/api/osworld/predict
+Predict API error (attempt 3/10): 429 Client Error: Too Many Requests for url: http://localhost:8001/api/osworld/predict
+Predict returned 1 action(s)
