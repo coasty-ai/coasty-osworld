@@ -9,11 +9,10 @@ Is there any way to solve this problem?
 
 ## Final state
 
-![Final state](step_6_20260321@203731277040.png)
+![Final state](step_13_20260622@043506434434.png)
 
 ## Artifacts
 
-- [▶ Screen recording](recording.mp4) — full agent run
 - [Trajectory](traj.jsonl) — per-step actions, reasoning, and screenshots
 - [Runtime log](runtime.log)
 - [Task definition](task.json) — original OSWorld task config

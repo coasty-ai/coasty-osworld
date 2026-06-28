@@ -13,6 +13,7 @@ reasoning, screenshots), and the original OSWorld task definition.
 
 - [**Chrome**](./chrome/README.md) — Browser navigation, tab management, and web-based workflows.
 - [**GIMP**](./gimp/README.md) — Image editing, color manipulation, layer operations, and export.
+- [**LibreOffice Calc**](./libreoffice_calc/README.md)
 - [**LibreOffice Impress**](./libreoffice_impress/README.md) — Slide creation, formatting, transitions, and presentation export.
 - [**LibreOffice Writer**](./libreoffice_writer/README.md) — Document authoring, formatting, styles, and structural edits.
 - [**Multi-app Workflows**](./multi_apps/README.md) — Cross-application workflows that span the browser, editors, terminals, and the file manager.

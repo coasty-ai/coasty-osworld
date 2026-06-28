@@ -1,58 +1,16 @@
-Created Coasty session: f292929e-bf5b-4c5e-8e74-e19325756026
+Reset Coasty session: d604cfd0-153a-4623-b78f-9e5bc28190ae
 CoastyAgent reset.
-Step 1: got 1 actions
-Reasoning: (Previous Action Verification)
-No previous action has been taken yet.
-
-(Screenshot Analysis)
-VS Code is open with a project. I need to modify the VS Code settings to hide `__pycache__` folders in the ...
-Actions: ["import pyautogui; pyautogui.hotkey('ctrl', ',')"]
-Step 2: got 1 actions
-Reasoning: (Previous Action Verification)
-The settings didn't open. The screen looks the same. Let me try again with Ctrl+, hotkey.
-
-(Screenshot Analysis)
-VS Code is still showing the Welcome tab. The settings p...
-Actions: ["import pyautogui; import pyautogui; pyautogui.click(1762, 1016, clicks=1, button='left'); "]
-Step 3: got 1 actions
-Reasoning: (Previous Action Verification)
-The Settings panel opened successfully. I can see the Settings tab is now active with a search bar at the top.
-
-(Screenshot Analysis)
-The VS Code Settings panel is now o...
-Actions: ['import pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(1128, 150); pyautogui.hotkey(\'ctrl\', \'a\'); pyautogui.press(\'backspace\'); pyautogui.write(\'files.exclude\'); \nimport pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(1128, 150); pyautogui.hotkey(\'ctrl\', \'a\'); pyautogui.press(\'backspace\'); pyautogui.write(\'files.exclude\'); \nimport pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(1128, 150); pyautogui.hotkey(\'ctrl\', \'a\'); pyautogui.press(\'backspace\'); pyautogui.write(\'files.exclude\'); \nimport pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(1128, 150); pyautogui.hotkey(\'ctrl\', \'a\'); pyautogui.press(\'backspace\'); pyautogui.write(\'files.exclude\'); ']
-Predict API error (attempt 1/10): 429 Client Error: Too Many Requests for url: http://localhost:8001/api/osworld/predict
-Step 4: got 1 actions
-Reasoning: (Previous Action Verification)
-The search for "files.exclude" was successful. I can see the "Files: Exclude" setting with existing patterns like **/.git, **/.svn, **/.hg, **/CVS, **/.DS_Store, **/Thum...
-Actions: ["import pyautogui; import pyautogui; pyautogui.click(834, 482, clicks=1, button='left'); "]
-Step 5: got 1 actions
-Reasoning: (Previous Action Verification)
-The "Add Pattern" button was clicked and an input field appeared with placeholder text "Exclude Pattern..." and OK/Cancel buttons.
-
-(Screenshot Analysis)
-An input field ...
-Actions: ['import pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(1180, 476); pyautogui.write(\'**/__pycache__\'); \nimport pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(1180, 476); pyautogui.write(\'**/__pycache__\'); ']
-Step 6: got 1 actions
-Reasoning: (Previous Action Verification)
-The text `**/**/__pycache__` was typed in the input field. However, I can see it shows `**/\**/__pycache_` which seems to have an extra `**/` prefix. Let me look more ca...
-Actions: ['import pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.hotkey(\'ctrl\', \'a\'); pyautogui.press(\'backspace\'); pyautogui.write(\'**/__pycache__\'); \nimport pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.hotkey(\'ctrl\', \'a\'); pyautogui.press(\'backspace\'); pyautogui.write(\'**/__pycache__\'); \nimport pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.hotkey(\'ctrl\', \'a\'); pyautogui.press(\'backspace\'); pyautogui.write(\'**/__pycache__\'); ']
-Step 7: got 1 actions
-Reasoning: (Previous Action Verification)
-The input field now shows `**/__pycache__` which is the correct pattern. The overwrite worked successfully.
-
-(Screenshot Analysis)
-The input field shows `**/__pycache__`...
-Actions: ["import pyautogui; import pyautogui; pyautogui.click(1610, 476, clicks=1, button='left'); "]
-Step 8: got 1 actions
-Reasoning: (Previous Action Verification)
-The OK button was clicked, but looking at the screen, the list doesn't appear to show `**/__pycache__` in the patterns list. The list still shows **/.git, **/.svn, **/.h...
-Actions: ['import pyautogui; import time; pyautogui.moveTo(1252, 393); time.sleep(0.5); pyautogui.vscroll(-3)']
-Step 9: got 1 actions
-Reasoning: (Previous Action Verification)
-The pattern `**/__pycache__` was successfully added! I can now see it in the list below `**/Thumbs.db`. The pattern was added correctly.
-
-(Screenshot Analysis)
-The Files...
-Actions: [{'action_type': 'DONE'}]
-Deleted Coasty session: f292929e-bf5b-4c5e-8e74-e19325756026
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)

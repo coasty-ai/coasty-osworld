@@ -6,6 +6,10 @@
 
 > Can you make Bing the main search engine when I look stuff up on the internet?
 
+## Final state
+
+![Final state](step_16_20260622@042625254648.png)
+
 ## Artifacts
 
 - [Trajectory](traj.jsonl) — per-step actions, reasoning, and screenshots

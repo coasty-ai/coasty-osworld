@@ -1,2 +1,1 @@
-{"step_num": 1, "action_timestamp": "20260322@191851515599", "action": "import pyautogui; import pyautogui; pyautogui.click(1164, 540, clicks=1, button='left'); ", "response": "", "reward": 0, "done": false, "info": {}, "screenshot_file": "step_1_20260322@191851515599.png"}
-{"step_num": 2, "action_timestamp": "20260322@191908006810", "action": {"action_type": "FAIL"}, "response": "", "reward": 0, "done": true, "info": {"fail": true}, "screenshot_file": "step_2_20260322@191908006810.png"}
+{"step_num": 1, "action_timestamp": "20260622@043403766847", "action": {"action_type": "FAIL"}, "response": "", "reward": 0, "done": true, "info": {"fail": true}, "screenshot_file": "step_1_20260622@043403766847.png"}

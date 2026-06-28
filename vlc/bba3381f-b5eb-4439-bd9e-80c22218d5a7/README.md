@@ -8,7 +8,7 @@
 
 ## Final state
 
-![Final state](step_7_20260321@195137515461.png)
+![Final state](step_18_20260622@043637066900.png)
 
 ## Artifacts
 

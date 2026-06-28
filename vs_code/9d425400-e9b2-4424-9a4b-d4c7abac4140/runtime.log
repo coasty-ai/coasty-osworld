@@ -1,36 +1,13 @@
-Created Coasty session: c10aca6e-67a5-49d1-a50e-e65cff346cf9
+Reset Coasty session: fd6a6e5d-5c3b-4853-948a-5c69fb5862b1
 CoastyAgent reset.
-Step 1: got 1 actions
-Reasoning: (Previous Action Verification)
-No previous action has been taken yet.
-
-(Screenshot Analysis)
-VS Code is open with the Welcome tab visible. There's an update notification at the bottom right. I need to...
-Actions: ["import pyautogui; pyautogui.hotkey('ctrl', ',')"]
-Step 2: got 1 actions
-Reasoning: (Previous Action Verification)
-The Settings panel did not open. The screen looks the same. Let me try clicking on the VS Code window first to ensure it has focus, then try the hotkey again.
-
-(Screensh...
-Actions: ["import pyautogui; import pyautogui; pyautogui.click(1143, 645, clicks=1, button='left'); "]
-Step 3: got 1 actions
-Reasoning: (Previous Action Verification)
-The Settings panel has opened successfully. I can see the Settings tab is now active with the search bar at the top.
-
-(Screenshot Analysis)
-The VS Code Settings panel is...
-Actions: ['import pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(1128, 150); pyautogui.hotkey(\'ctrl\', \'a\'); pyautogui.press(\'backspace\'); pyautogui.write(\'wrap tabs\'); \nimport pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(1128, 150); pyautogui.hotkey(\'ctrl\', \'a\'); pyautogui.press(\'backspace\'); pyautogui.write(\'wrap tabs\'); \nimport pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(1128, 150); pyautogui.hotkey(\'ctrl\', \'a\'); pyautogui.press(\'backspace\'); pyautogui.write(\'wrap tabs\'); \nimport pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(1128, 150); pyautogui.hotkey(\'ctrl\', \'a\'); pyautogui.press(\'backspace\'); pyautogui.write(\'wrap tabs\'); ']
-Predict API error (attempt 1/10): 429 Client Error: Too Many Requests for url: http://localhost:8001/api/osworld/predict
-Predict API error (attempt 2/10): 429 Client Error: Too Many Requests for url: http://localhost:8001/api/osworld/predict
-Step 4: got 1 actions
-Reasoning: (Previous Action Verification)
-The search worked correctly. I can see "Workbench › Editor: Wrap Tabs" setting is found with a checkbox that appears to be unchecked.
-
-(Screenshot Analysis)
-The Settings...
-Actions: ["import pyautogui; import pyautogui; pyautogui.click(794, 266, clicks=1, button='left'); "]
-Step 5: got 1 actions
-Reasoning: (Previous Action Verification)
-The checkbox for "Workbench › Editor: Wrap Tabs" has been checked successfully. I can see it now shows a checkmark in the checkbox, and the setting is highlighted in blu...
-Actions: [{'action_type': 'DONE'}]
-Deleted Coasty session: c10aca6e-67a5-49d1-a50e-e65cff346cf9
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)

@@ -8,11 +8,10 @@
 
 ## Final state
 
-![Final state](step_10_20260322@175011368607.png)
+![Final state](step_8_20260622@044557382258.png)
 
 ## Artifacts
 
-- [▶ Screen recording](recording.mp4) — full agent run
 - [Trajectory](traj.jsonl) — per-step actions, reasoning, and screenshots
 - [Runtime log](runtime.log)
 - [Task definition](task.json) — original OSWorld task config

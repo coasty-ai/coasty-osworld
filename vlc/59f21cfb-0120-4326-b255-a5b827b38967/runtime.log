@@ -1,48 +1,9 @@
-Created Coasty session: edfc0314-942c-4b43-83a7-fba1e028aef3
+Reset Coasty session: bcf0026a-109c-4f34-ae25-28e2fdb638dd
 CoastyAgent reset.
-Step 1: got 1 actions
-Reasoning: (Previous Action Verification)
-No previous action has been taken yet.
-
-(Screenshot Analysis)
-VLC media player is open and showing the default idle screen. I can see a thumbnail in the bottom right cor...
-Actions: ["import pyautogui; import pyautogui; pyautogui.click(663, 372, clicks=1, button='left'); "]
-Step 2: got 1 actions
-Reasoning: (Previous Action Verification)
-The Media menu has opened successfully, showing options including "Open File...", "Open Multiple Files...", etc.
-
-(Screenshot Analysis)
-The Media menu is open. I need to...
-Actions: ["import pyautogui; import pyautogui; pyautogui.click(704, 394, clicks=1, button='left'); "]
-Step 3: got 1 actions
-Reasoning: (Previous Action Verification)
-The "Select one or more files to open" dialog has appeared. It's currently showing /home/user in the "Look in" field.
-
-(Screenshot Analysis)
-The file dialog is open. I c...
-Actions: ['import pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(981, 664); pyautogui.hotkey(\'ctrl\', \'a\'); pyautogui.press(\'backspace\'); pyautogui.write(\'/home/user/Desktop/\'); \nimport pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(981, 664); pyautogui.hotkey(\'ctrl\', \'a\'); pyautogui.press(\'backspace\'); pyautogui.write(\'/home/user/Desktop/\'); \nimport pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(981, 664); pyautogui.hotkey(\'ctrl\', \'a\'); pyautogui.press(\'backspace\'); pyautogui.write(\'/home/user/Desktop/\'); \nimport pyautogui; \ntry:\n    import pyperclip\nexcept ImportError:\n    import subprocess\n    subprocess.run(\'echo "coasty-ai" | sudo -S apt-get install -y xclip xsel\', shell=True, check=True)\n    subprocess.check_call([subprocess.sys.executable, \'-m\', \'pip\', \'install\', \'pyperclip\'])\n    import pyperclip\n\npyautogui.click(981, 664); pyautogui.hotkey(\'ctrl\', \'a\'); pyautogui.press(\'backspace\'); pyautogui.write(\'/home/user/Desktop/\'); ']
-Step 4: got 1 actions
-Reasoning: (Previous Action Verification)
-The text "/home/user/Desktop/" has been typed in the file name field successfully.
-
-(Screenshot Analysis)
-The file dialog shows "/home/user/Desktop/" in the file name fi...
-Actions: ["import pyautogui; import pyautogui; pyautogui.click(1244, 666, clicks=1, button='left'); "]
-Step 5: got 1 actions
-Reasoning: (Previous Action Verification)
-The dialog has navigated to /home/user/Desktop and I can see the file "Rick Astley - Nev... Music Video).mp4" with size 8.68 MiB, type mp4 File.
-
-(Screenshot Analysis)
-T...
-Actions: ["import pyautogui; import pyautogui; pyautogui.click(1029, 376, clicks=1, button='left'); "]
-Step 6: got 1 actions
-Reasoning: (Previous Action Verification)
-The file "Rick Astley - Never Gonna Give You Up (Official Music Video).mp4" has been selected (highlighted in blue) and its name appears in the file name field.
-
-(Screen...
-Actions: ["import pyautogui; import pyautogui; pyautogui.click(1244, 664, clicks=1, button='left'); "]
-Step 7: got 1 actions
-Reasoning: (Previous Action Verification)
-The file has been opened and is now playing in VLC. The title bar shows "Rick Astley - Never Gonna Give You Up (Official Music Video).mp4 - ..." and the playback control...
-Actions: [{'action_type': 'DONE'}]
-Deleted Coasty session: edfc0314-942c-4b43-83a7-fba1e028aef3
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
+Predict returned 1 action(s)
